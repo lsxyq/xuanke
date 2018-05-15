@@ -12,7 +12,7 @@ for i in $(seq 1 $days)
 do
 #控制提交天数，避免每天提交
 s=$(($RANDOM%7))
-avg=4
+avg=3
 if [ $s -gt $avg ]
 then
    # 随机数　随机提交次数
